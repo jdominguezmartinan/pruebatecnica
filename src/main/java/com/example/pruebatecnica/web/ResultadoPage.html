@@ -1,0 +1,127 @@
+<html xmlns:wicket>
+
+<head>
+	    <meta charset="utf-8"  />
+
+	    <title>Resumen de la importación</title>
+
+	    <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+<header>
+     <div id="hd">
+			<div id="logo">
+				<img src="logo.png" width="50px" height="50px" alt="Wicket Logo" />
+				<h1>Resumen de la importación</h1>
+			</div>
+		</div>
+    </header>
+<body>
+	<br/><br/>
+	<a href="#" wicket:id="csv">Descargar CSV </a>
+	<div>
+		<div>
+			<table table class="styled-table">
+
+				<tr>
+					<th>region</th>
+					<th>Cantidad</th>
+				</tr>
+				<tr wicket:id="listRegion">
+					<div class="row">
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="clave4"></span>
+						</td>
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="valor4"></span>
+						</td>
+					</div>
+				</tr>
+			</table>
+		</div>
+		<br/><br/><br/>
+		<div>
+			<table table class="styled-table">
+
+				<tr>
+					<th>salesChannel</th>
+					<th>Cantidad</th>
+				</tr>
+				<tr wicket:id="listSalesChannel">
+					<div class="row">
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="clave5"></span>
+						</td>
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="valor5"></span>
+						</td>
+					</div>
+				</tr>
+			</table>
+		</div>
+		<br/><br/><br/>
+		<div>
+			<table table class="styled-table">
+
+				<tr>
+					<th>itemType</th>
+					<th>Cantidad</th>
+				</tr>
+				<tr wicket:id="listItemType">
+					<div class="row">
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="clave2"></span>
+						</td>
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="valor2"></span>
+						</td>
+					</div>
+				</tr>
+			</table>
+		</div>
+		<br/><br/><br/>
+		<div>
+			<table table class="styled-table">
+
+				<tr>
+					<th>orderPriority</th>
+					<th>Cantidad</th>
+				</tr>
+				<tr wicket:id="listOrderRepository">
+					<div class="row">
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="clave3"></span>
+						</td>
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="valor3"></span>
+						</td>
+					</div>
+				</tr>
+			</table>
+		</div>
+		
+		<br/><br/><br/>
+
+		<div>	
+			<table class="styled-table">
+				<tr>
+					<th>Paises</th>
+					<th>Cantidad</th>
+				</tr>
+				<tr wicket:id="listCountrys">
+					<div class="row">
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="clave"></span>
+						</td>
+						<td class="col-xs-4 col-md-3 col-lg-3 text">
+							<span wicket:id="valor"></span>
+						</td>
+					</div>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+</body>
+
+</html>
